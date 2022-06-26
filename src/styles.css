@@ -1,0 +1,13 @@
+.App {
+  font-family: Roboto;
+  text-align: center;
+}
+.List {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+h2 {
+  font-family: "Arial";
+  color: rgb(224, 147, 2);
+}
