@@ -11,6 +11,15 @@ function App() {
         <h1>Weather Search Engine</h1>
         <Search />
       </div>
+      <footer>
+        This project was coded by
+        <a
+          href="https://github.com/SharonSmit/react-weather-app"
+          target="blank"
+        >
+          Sharon Smit
+        </a>
+      </footer>
     </div>
   );
 }
