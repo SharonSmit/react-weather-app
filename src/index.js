@@ -12,12 +12,16 @@ function App() {
         <Search />
       </div>
       <footer>
-        This project was coded by
+        This project was coded by{" "}
+        <a href="https://www.sharonsmit.com" target="blank">
+          Sharon Smit
+        </a>
+        and is{" "}
         <a
           href="https://github.com/SharonSmit/react-weather-app"
           target="blank"
         >
-          Sharon Smit
+          open-sourced on GitHub
         </a>
       </footer>
     </div>
