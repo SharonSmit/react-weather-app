@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Search from "./Search";
+import Weather from "./Weather";
 import "bootstrap/dist/css/bootstrap.css";
 
 import "./styles.css";
@@ -10,13 +10,12 @@ function App() {
     <div className="App">
       <div className="Container">
         <div>
-          <h1>Weather Search Engine</h1>
-          <Search />
+          <Weather />
         </div>
         <footer>
           This project was coded by{" "}
           <a href="https://www.sharonsmit.com" target="blank">
-            Sharon Smit
+            Sharon Smit 👩‍🚀
           </a>{" "}
           and is{" "}
           <a

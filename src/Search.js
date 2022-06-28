@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import "bootstrap/dist/css/bootstrap.css";
 
 export default function Search() {
   let [city, setCity] = useState("");
@@ -29,8 +30,18 @@ export default function Search() {
   }
   let form = (
     <form onSubmit={showTemperature}>
-      <input type="search" placeholder="Search..." onChange={updateCity} />
-      <input type="submit" value="Search" onClick={showTemperature} />
+      <input
+        type="search"
+        placeholder="Enter a city..."
+        className="form-control"
+        onChange={updateCity}
+      />
+      <input
+        type="submit"
+        value="Search"
+        className="btn btn-primary"
+        onClick={showTemperature}
+      />
     </form>
   );
 
