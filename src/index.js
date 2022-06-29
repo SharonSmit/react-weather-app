@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <div className="Container">
         <div>
-          <Weather />
+          <Weather defaultCity="Leiden" />
         </div>
         <footer>
           This project was coded by{" "}
