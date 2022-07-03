@@ -3,7 +3,6 @@ import axios from "axios";
 import "bootstrap/dist/css/bootstrap.css";
 import "./Weather.css";
 import WeatherInfo from "./WeatherInfo";
-import Search from "./Search";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
@@ -30,7 +29,7 @@ export default function Weather(props) {
 
   function handleSubmit(event) {
     event.preventDefault();
-    Search();
+    search();
   }
 
   function handleCityChange(event) {

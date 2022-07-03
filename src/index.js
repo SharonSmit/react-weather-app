@@ -22,8 +22,9 @@ function App() {
             href="https://github.com/SharonSmit/react-weather-app"
             target="blank"
           >
-            open-sourced on GitHub
-          </a>
+            open-sourced
+          </a>{" "}
+          on GitHub
         </footer>
       </div>
     </div>
