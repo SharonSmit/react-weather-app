@@ -1,4 +1,3 @@
-import matchers from "@testing-library/jest-dom/matchers";
 import React from "react";
 import WeatherIcon from "./WeatherIcon";
 
