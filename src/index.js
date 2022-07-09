@@ -14,13 +14,18 @@ function App() {
         </div>
         <footer>
           This project was coded by{" "}
-          <a href="https://www.sharonsmit.com" target="blank">
+          <a
+            href="https://www.sharonsmit.com"
+            target="blank"
+            rel="noopener noreferrer"
+          >
             Sharon Smit 👩‍🚀
           </a>{" "}
           and is{" "}
           <a
             href="https://github.com/SharonSmit/react-weather-app"
             target="blank"
+            rel="noopener noreferrer"
           >
             open-sourced
           </a>{" "}
