@@ -12,7 +12,7 @@ function App() {
         <div>
           <Weather defaultCity="Leiden" />
         </div>
-        <footer>
+        <footer className="Footer">
           This project was coded by{" "}
           <a
             href="https://www.sharonsmit.com"
